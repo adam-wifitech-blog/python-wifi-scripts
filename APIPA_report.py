@@ -19,7 +19,7 @@ start_time = time.time()
 
 # Define the command and the TextFSM template for parsing its output.
 send_command = 'show wireless client summary detail ipv4'
-client_summary_detail_ipv4_template = 'wlc_c9800_show_wireless_client_summary_detail_ipv4'
+client_summary_detail_ipv4_template = 'wlc_c9800_show_wireless_client_summary_detail_ipv4.txt'
 
 # Execute the command and get its output.
 send_command_output = connecthandlerc9800.connecthandlerc9800(device, send_command)
