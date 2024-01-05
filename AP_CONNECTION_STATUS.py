@@ -1,5 +1,4 @@
-import datetime
-
+#!/usr/bin/env pthon3
 import connecthandlerc9800 as chc9800
 from parsedtextfsmc9800 import parsedtextfsm
 import socket
